@@ -1,0 +1,15 @@
+#include <stdio.h>
+int func(int N,int N2){
+  int a=0;
+  for(int i =N; i <= N2; i++){
+    a += i;
+  }
+  return a;
+}
+int main() {
+  int N,N2;
+  scanf("%d%d",&N,&N2);
+  
+  printf("%d", func(N,N2));
+  return 0;
+}
